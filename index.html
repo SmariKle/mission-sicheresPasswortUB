@@ -9,13 +9,13 @@
     <!-- Lädt Babel, um den React-Code im Browser auszuführen -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     
-    <!-- Sagt dem Browser, wo er React und die Icons findet -->
+    <!-- Sagt dem Browser, wo er React und die Icons findet (strikt gepinnte Versionen verhindern Konflikte) -->
     <script type="importmap">
       {
         "imports": {
-          "react": "https://esm.sh/react@18",
-          "react-dom/client": "https://esm.sh/react-dom@18/client",
-          "lucide-react": "https://esm.sh/lucide-react"
+          "react": "https://esm.sh/react@18.3.1",
+          "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+          "lucide-react": "https://esm.sh/lucide-react@0.447.0?external=react"
         }
       }
     </script>
