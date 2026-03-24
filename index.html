@@ -145,17 +145,19 @@
             l2_title: "Akte #2: Passwort-Tricks",
             l2_t1: "Der Merksatz", l2_t2: "Extra-Ersetzungen", l2_t3: "Plattform-Trick",
             l2_ex: "Beispiel:", l2_enterPwd: "Passwort eingeben...", l2_testPwd: "Passwort Testen", l2_mastered: "TRICK ERFOLGREICH TRAINIERT!",
+            trick_prefix: "Trick",
             
             l2_t1_p1: <>Wie soll man sich ein Passwort wie <code className="text-cyan-400 font-mono font-bold bg-slate-950 px-2 py-1 rounded">xT7!pL9#mQ</code> merken? Gar nicht!</>,
             l2_t1_p2: <>Profis nutzen dafür die <Highlight>Merksatzmethode</Highlight>. Denkt euch einen Satz aus und nehmt für das Passwort nur die <Highlight>Anfangsbuchstaben</Highlight> und die <Highlight>Satzzeichen</Highlight>.</>,
             l2_t1_ex: "Ich esse Äpfel! ➡️ IeÄ!",
             
-            l2_t2_p1: <>Als Ergänzung zu Trick 1 machen wir es Hackern noch schwerer: Wir streuen <Highlight>Zahlen und Sonderzeichen</Highlight> ein.</>,
-            l2_t2_p2: <><Highlight>Ersetzt</Highlight> dafür einfach bestimmte Wörter oder Buchstaben aus eurem Merksatz durch Ziffern und Symbole.</>,
+            l2_t2_p1_info: <>Als Ergänzung zu Trick 1 machen wir es Hackern noch schwerer: Wir streuen <Highlight>Zahlen und Sonderzeichen</Highlight> ein.</>,
+            l2_t2_p2_info: <><Highlight>Ersetzt</Highlight> dafür einfach bestimmte Wörter oder Buchstaben aus eurem Merksatz durch Ziffern und Symbole.</>,
+            l2_t2_ex_head: "Beispiele für mögliche Ersetzungen:",
             l2_t2_r1: 'Aus "ein", "eine", "einem" ➡️ 1', l2_t2_r2: 'Aus "zwei" ➡️ 2', l2_t2_r3: 'Aus "für" ➡️ 4 (da englisch "four" so ähnlich klingt)', l2_t2_r4: 'Aus "a" oder "A" ➡️ @',
             
-            l2_t3_p1: <>Als Ergänzung zu Trick 1 und 2 gilt die goldene Regel: Nutzt <Highlight>für jeden Account ein eigenes Passwort</Highlight>!</>,
-            l2_t3_p2: <>Damit ihr euch nicht 20 verschiedene Sätze merken müsst, nutzt immer euren EINEN <Highlight>Basis-Merksatz</Highlight>. Hängt an das Ende einfach ein <Highlight>Kürzel für die jeweilige Plattform</Highlight> an.</>,
+            l2_t3_p1_info: <>Als Ergänzung zu Trick 1 und 2 gilt die goldene Regel: Nutzt <Highlight>für jeden Account ein eigenes Passwort</Highlight>!</>,
+            l2_t3_p2_info: <>Damit ihr euch nicht 20 verschiedene Sätze merken müsst, nutzt immer euren EINEN <Highlight>Basis-Merksatz</Highlight>. Hängt an das Ende einfach ein <Highlight>Kürzel für die jeweilige Plattform</Highlight> an.</>,
             l2_t3_ex: "Basis-Passwort IeÄ! bei TikTok ➡️ IeÄ!_TT",
 
             l2_ab_summary: "Super, du hast alle Tricks gelernt! Bearbeite nun Aufgabe 2 auf deinem Arbeitsblatt.",
@@ -219,21 +221,205 @@
 
             cert_title: "Zertifikat", cert_auth: "Cyber-Security Behörde", cert_conf: "Hiermit wird offiziell bestätigt, dass",
             cert_text: <>die Agenten-Ausbildung zum <strong className="text-cyan-400 font-bold">Passwort-Profi</strong> bestanden haben. Autorisierung für hochsichere Systeme erteilt.</>,
-            cert_examiner: "System-Admin", cert_date: "Ausstellungsdatum", cert_back: "Zurück zum Aktenordner!", cert_sysadmin: "SYS-ADMIN", cert_unknownAgent: "AGENT UNBEKANNT"
+            cert_examiner: "System-Admin", cert_date: "Ausstellungsdatum", cert_back: "Zurück zum Aktenordner!", cert_sysadmin: "SYS-ADMIN", cert_unknownAgent: "AGENT UNBEKANNT",
+            
+            l1_q1_f1: "Falsch! Passwörter haben keinen Einfluss auf die Geschwindigkeit des Internets.",
+            l1_q1_f2: "Falsch! Vor Viren schützt ein Antivirenprogramm, nicht ein Passwort.",
+            l1_sortError: "FALSCHE REIHENFOLGE! Sortiere nochmal.",
+            l1_sys_pass: "SYSTEM-CHECK BESTANDEN! AKTE 1 ABGESCHLOSSEN.",
+            hint_prefix: "Tipp:",
+            l2_err_info: "Lies noch einmal genau, was in der Infobox steht.",
+            l2_err_notes: "Lies noch einmal genau in deinen Notizen auf dem Arbeitsblatt nach.",
+            l2_err_t1: "Hast du auf Groß-/Kleinschreibung und die Satzzeichen geachtet?",
+            l2_err_t2: "Hast du auf Groß-/Kleinschreibung, die Satzzeichen und die möglichen Ersetzungen geachtet?",
+            l2_err_t3: "Hast du auf die Anfangsbuchstaben, Ersetzungen, Satzzeichen und den Anhang geachtet?",
+            l2_summary: "Zusammenfassung",
+            l2_next_quiz: "Weiter zum Sicherheits-Check",
+            l2_next_trick: "Weiter zum nächsten Trick",
+            l2_open_ws: "Arbeitsblatt-Hinweis öffnen",
+            l2_task: "Aufgabe",
+            l2_t1_q1: "Finde das korrekte Passwort für folgenden Satz:",
+            l2_t1_txt1: "Heute scheint die Sonne sehr hell!",
+            l2_t1_q2: "Wandle nun selbst folgenden Satz um:",
+            l2_t1_txt2: "Wir lernen viel über sichere Passwörter!",
+            l2_t1_h2: "Achte genau auf die Groß- und Kleinschreibung der Anfangsbuchstaben und das Satzzeichen am Ende.",
+            l2_match_q: "Klicke links auf einen Satz und rechts auf das passende Passwort!",
+            l2_t2_p1_l: "Am Abend esse ich eine Pizza!",
+            l2_t2_p2_l: "Am Anfang entdecke ich ein Problem.",
+            l2_t2_p3_l: "Alle Affen essen im Park.",
+            l2_t2_q2: "Wandle den Satz mit Trick 1 und 2 um:",
+            l2_t2_txt2: "Mein Bruder isst zwei Äpfel.",
+            l2_t2_h2: "Ersetze das Wort 'zwei' durch die Ziffer 2.",
+            l2_t3_p1_l: "Wir spielen heute im Park! (Roblox _RB)",
+            l2_t3_p2_l: "Wir singen heute im Park. (Roblox _RB)",
+            l2_t3_p3_l: "Wann starten wir im Projekt? (Minecraft _MC)",
+            l2_t4_q1: "Wandle den Satz mithilfe von Trick 1, 2 und 3 in ein sicheres Passwort um:",
+            l2_t4_txt1: "Am Abend spiele ich für zwei Stunden. (Roblox _RB)",
+            l2_t4_h1: "Denke an: @@ für Am Abend, 4 für für, 2 für zwei, den Punkt und das Kürzel _RB!",
+            l2_t4_q2: "Wandle noch diesen Satz um (alle Tricks anwenden):",
+            l2_t4_txt2: "Zwei Hunde bellen laut im Park! (TikTok _TT)",
+            l2_t4_h2: "Denke an: 2 für Zwei, die Anfangsbuchstaben, das Ausrufezeichen und das Kürzel _TT!",
+            alert_ws_dl: "Lernpfad-Code wurde als HTML heruntergeladen!",
+            alert_all_free: "ZUTRITT ERTEILT: Alle Akten sind frei!",
+            alert_step_skip: "AKTUELLER SCHRITT ERFOLGREICH ÜBERBRÜCKT.",
+            alert_invalid: "CODE UNGÜLTIG."
           },
           ru: { 
               missionsLogin: "Вход", mission: "Миссия", securePassword: "Надежный пароль", euerAuftrag: "Задача",
-              welcome_p1: <>Хакеры пытаются взломать пароли.</>,
-              welcome_p2: <>Вы были выбраны для подготовки Агента.</>,
-              welcome_p3: <>Научитесь создавать надежные пароли!</>,
-              playerCount: "Сколько агентов?", onePlayer: "Один", twoPlayers: "Двое", startMission: "Начать",
-              decknamen: "Имена!", nameHint: "Секретные имена!", decknameSingle: "Имя!", decknameSingleHint: "Секретное имя!",
-              agent: "Агент", enterName: "Имя...", hauptmenü: "Меню", akteWählen: "Выберите дело", back: "Назад", next: "Далее", finish: "Закрыть",
-              lehrerCode: "Код", infoTitle: "Инфо", quizTitle: "Тест", check: "Проверка", akte: "Дело",
-              correct: "ВЕРНО!", wrong: "ОШИБКА!", loading: "Загрузка...", tryAgain: "Повтор", login: "Вход",
-              attentionAB: "РАБОЧИЙ ЛИСТ!", abWait: "Сначала лист!", l1_title: "Дело 1", l2_title: "Дело 2", l3_title: "Дело 3", l4_title: "Дело 4", l5_title: "Дело 5",
+              welcome_p1: <>Теперь вы знаете, что <Highlight>Хакеры</Highlight> пытаются взломать пароли, чтобы получить доступ к личным данным.</>,
+              welcome_p2: <>Чтобы защитить вас, вы были выбраны для подготовки <Highlight>Агента по паролям</Highlight>.</>,
+              welcome_p3: <>Используйте этот шанс и научитесь создавать <Highlight>невероятно надежные пароли</Highlight>!</>,
+              playerCount: "Сколько агентов?", onePlayer: "Один", twoPlayers: "Двое", startMission: "Начать миссию",
+              decknamen: "Выберите кодовые имена!", nameHint: "Используйте забавные секретные имена, никогда не используйте свои настоящие!",
+              decknameSingle: "Выбери кодовое имя!", decknameSingleHint: "Используй забавное секретное имя, никогда не используй свое настоящее!",
+              agent: "Агент", enterName: "Ввести имя...", hauptmenü: "Меню", akteWählen: "Выберите следующее открытое дело.", back: "Назад", next: "Далее", finish: "Закрыть дело",
+              lehrerCode: "Код", infoTitle: "Инфо", quizTitle: "Тест безопасности", check: "Проверка", akte: "Дело",
+              correct: "ВЕРНО!", wrong: "ОШИБКА!", loading: "Загрузка...", tryAgain: "Повторить", login: "Вход",
+              attentionAB: "РАБОЧИЙ ЛИСТ!", abWait: "Сначала выполните задание в рабочем листе!", 
+              
+              l1_title: "Дело #1: Основы паролей",
+              l1_p1_1: <>Пароли — это <Highlight>цифровой ключ</Highlight> к вашему <Highlight>цифровому дому</Highlight>. Без них любой мог бы читать ваши личные сообщения, смотреть фото или красть данные.</>,
+              l1_q1: "Для чего именно нам нужны пароли? Выберите правильный ответ:",
+              l1_a1: "Чтобы интернет работал быстрее.", l1_a2: "Чтобы защитить наши личные данные от посторонних.", l1_a3: "Чтобы планшет не заразился вирусами.",
+              l1_success1_head: "ДОСТУП РАЗРЕШЕН!", l1_success1_sub: "Пароли — ваш цифровой вышибала.",
+              l1_p2_1: <>Многие используют <Highlight>простые пароли</Highlight> или <Highlight>личные данные</Highlight> (год рождения, хобби). Хакеры легко их угадывают!</>,
+              l1_hackPrompt: "Станьте хакером: попытайтесь угадать пароль!", l1_profile: "ПРОФИЛЬ",
+              l1_fbRight: "ПАРОЛЬ ВЗЛОМАН!", l1_fbAlarm: "ТРЕВОГА! ПЕРЕЗАПУСК!", l1_fbLife: "Ошибка! Жизнь потеряна.",
+              l1_success2_head: "СИСТЕМА ВЗЛОМАНА!", l1_success2_sub: "Простые пароли не обеспечивают достаточной защиты.",
+              l1_hackTransition: <>Личные данные и простые пароли легко угадать. Хакеры используют для этого <Highlight>специальные хакерские программы</Highlight>...</>,
+              l1_profiles: [
+                { name: "Lukas", info: "Ему 12 лет, любит играть в Minecraft.", opts: ["passwort123", "minecraft", "lukas12", "hallo123"], c: "lukas12" },
+                { name: "Max Müller", info: "Любит футбол и родился в 2011 году.", opts: ["geheim", "fussball2011", "max", "Sicher!"], c: "fussball2011" }
+              ],
+              l1_p3_1: <>Эти программы тестируют <Highlight>миллионы слов в секунду</Highlight>. Чем короче пароль, тем быстрее он будет взломан!</>,
+              l1_sortTitle: "Тест: Время взлома", l1_sortSub: "Отсортируйте от самого слабого (сверху) к самому надежному (снизу).",
+              l1_weak: "Слабый пароль", l1_strong: "Надежный пароль", l1_time: "Время:",
+              l1_times: { t1: "2 минуты", t2: "Сразу", t3: "400 лет", t4: "1 секунда" },
+              l1_sortSuccess_head: "ОТСОРТИРОВАНО ВЕРНО!", l1_sortSuccess_sub: "Чем сложнее пароль, тем больше времени требуется на взлом.",
+              l1_analysisTitle: "Тест: Характеристики", l1_analysisSub: "Отметьте все элементы, которые делают пароль M!ss1on_P@ss надежным:",
+              l1_analysisWrong: "ЭТО НЕ СОВСЕМ ТАК! ПРОВЕРЬТЕ ВЫБОР.", 
+              l1_analysisRight_head: "ОТЛИЧНЫЙ АНАЛИЗ!", l1_analysisRight_sub: "Вы распознали все признаки надежного пароля.",
+              l1_opts: [
+                { id: 1, text: 'Он содержит заглавные и строчные буквы.', c: true }, { id: 2, text: 'Содержит настоящие слова.', c: false },
+                { id: 3, text: 'Не содержит настоящих слов.', c: true }, { id: 4, text: 'Содержит цифры.', c: true },
+                { id: 5, text: 'Содержит личные данные.', c: false }, { id: 6, text: 'Не содержит личных данных.', c: true },
+                { id: 7, text: 'Содержит спецсимволы (!, @).', c: true }, { id: 8, text: 'Длиннее 10 символов.', c: true }
+              ],
+              l1_summaryHead: "Рецепт надежного пароля",
+              l1_li1: <>Минимум <Highlight>10 символов</Highlight>.</>, l1_li2: <>Смесь: <Highlight>заглавные/строчные, цифры, символы</Highlight>.</>,
+              l1_li3: <>Никаких <Highlight>настоящих слов</Highlight> или <Highlight>личных данных</Highlight>.</>, l1_li4: <><Highlight>Никогда</Highlight> не рассказывайте пароль!</>, l1_li5: <>Для каждого сайта <Highlight>свой пароль</Highlight>!</>,
+              l1_startQuiz: "Начать проверку",
+              l1_qs: [
+                { q: "Какой пароль надежнее?", opts: [{t: "Batman2023", c: false}, {t: "xT7!&gj0mQ", c: true}] },
+                { q: "Какое правило лучше всего защитит вас?", opts: [{t: "Для каждого аккаунта свой пароль.", c: true}, {t: "Один пароль для всех.", c: false}] },
+                { q: "Как программы взламывают аккаунты?", opts: [{t: "Молниеносно проверяют списки со словами.", c: true}, {t: "Хакер звонит и угадывает.", c: false}] }
+              ],
+              l1_ab: "Выполните задание 1 в рабочем листе.",
+
+              l2_title: "Дело #2: Трюки", l2_t1: "Фраза-подсказка", l2_t2: "Дополнительные замены", l2_t3: "Трюк с платформой",
+              l2_ex: "Пример:", l2_enterPwd: "Ввести пароль...", l2_testPwd: "Проверить пароль", l2_mastered: "ОСВОЕНО!",
+              trick_prefix: "Трюк",
+              
+              l2_t1_p1: <>Как запомнить пароль вроде <code className="text-cyan-400 font-mono font-bold bg-slate-950 px-2 py-1 rounded">xT7!pL9#mQ</code>? Никак!</>,
+              l2_t1_p2: <>Используйте <Highlight>метод фразы</Highlight>. Придумайте предложение и возьмите <Highlight>первые буквы</Highlight> и <Highlight>знаки препинания</Highlight>.</>,
+              l2_t1_ex: "Ich esse Äpfel! ➡️ IeÄ!",
+              l2_t2_p1_info: <>Мы усложним задачу: добавим <Highlight>цифры и спецсимволы</Highlight>.</>,
+              l2_t2_p2_info: <>Просто <Highlight>замените</Highlight> некоторые буквы из фразы на цифры и символы.</>,
+              l2_t2_ex_head: "Примеры замен:",
+              l2_t2_r1: 'Из "ein", "eine" ➡️ 1', l2_t2_r2: 'Из "zwei" ➡️ 2', l2_t2_r3: 'Из "für" ➡️ 4 (звучит как four)', l2_t2_r4: 'Из "a" или "A" ➡️ @',
+              l2_t3_p1_info: <>Золотое правило: используйте <Highlight>для каждого аккаунта свой пароль</Highlight>!</>,
+              l2_t3_p2_info: <>Добавьте в конец пароля <Highlight>сокращение для платформы</Highlight>.</>,
+              l2_t3_ex: "Базовый пароль IeÄ! для TikTok ➡️ IeÄ!_TT",
               l2_ab_summary: "РАБОЧИЙ ЛИСТ 2!",
-              cert_title: "Сертификат", cert_auth: "Организация", cert_conf: "Подтверждаем", cert_text: "Вы прошли курс.", cert_examiner: "Админ", cert_date: "Дата", cert_back: "В меню", cert_sysadmin: "АДМИН", cert_unknownAgent: "НЕИЗВЕСТНО"
+
+              l3_title: "Дело #3: Пароль профи", l3_head: "Создайте свой пароль!", l3_sub: "Теперь вы знаете все правила.", topSecret: "СОВЕРШЕННО СЕКРЕТНО",
+              l3_alert: "АКТИВЕН РЕЖИМ СЕКРЕТНОСТИ!", 
+              l3_p1: <>Возьмите у учителя <Highlight>конверт Top Secret</Highlight>. Этот пароль для школьных компьютеров!</>,
+              l3_li1: "Придумайте предложение.", l3_li2: "Превратите его с помощью трюков в пароль.", l3_li3: "Запишите на листок и спрячьте в конверт.",
+              l3_warn: "ВАЖНО: Постарайтесь запомнить пароль в голове!",
+
+              l4_title: "Дело #4: Бонусные миссии", 
+              l4_infoHeadM: "1. Цифровые сейфы",
+              l4_p1M: <>Менеджер паролей — это <Highlight>цифровой сейф</Highlight>. Нужно запомнить лишь <Highlight>ОДИН мастер-пароль</Highlight>.</>,
+              l4_adv: "Плюс:", l4_advT: "Вы можете использовать бесконечно сложные пароли. Приложение их вводит.",
+              l4_dis: "Минус:", l4_disT: "Забудете мастер-пароль — сейф останется закрытым навсегда!",
+              l4_exam: "Тест безопасности",
+              l4_qsM: [
+                { q: "Менеджер паролей это...", opts: [{t: "открытая книга.", c: false}, {t: "цифровой сейф.", c: true}] },
+                { q: "Какой самый большой недостаток?", opts: [{t: "Забыл мастер-пароль - потерял все пароли.", c: true}, {t: "Занимает много памяти.", c: false}] },
+                { q: "Что нельзя делать с мастер-паролем?", opts: [{t: "Сохранить в памяти.", c: false}, {t: "Приклеить бумажку на монитор.", c: true}] }
+              ],
+              l4_infoHead2: "2. Двойная защита (2FA)",
+              l4_p1_2: <>Двухфакторная аутентификация (2FA) как <Highlight>двойной вышибала</Highlight>.</>,
+              l4_p2_2: "Даже зная пароль, хакер не войдет.",
+              l4_p3_2: <>Система требует <Highlight>второе доказательство</Highlight>. Например <Highlight>Числовой код</Highlight> или <Highlight>отпечаток пальца</Highlight>.</>,
+              l4_qs2: [
+                { q: "Что может быть хорошим вторым фактором?", opts: [{t: "Отпечаток пальца или код.", c: true}, {t: "Любимая еда.", c: false}] },
+                { q: "Почему код из SMS делает аккаунт безопаснее?", opts: [{t: "Хакеру придется украсть наш телефон.", c: true}, {t: "SMS бесплатные.", c: false}] },
+                { q: "Что будет, если потеряли телефон с кодом?", opts: [{t: "Нужно подождать 5 минут.", c: false}, {t: "Временно не сможете войти.", c: true}] }
+              ],
+              l4_infoHeadP: "3. Поддельные сообщения",
+              l4_p1P: <>Хакеры отправляют фейковые письма. Это называется <Highlight>Фишинг</Highlight>.</>,
+              l4_p2P: "Как их распознать?",
+              l4_li1P: <>1. Странный <Highlight>адрес отправителя</Highlight>.</>, l4_li2P: <>2. Оказывают сильное <Highlight>давление</Highlight>.</>, l4_li3P: <>3. Просят <Highlight>ввести пароли</Highlight>.</>,
+              l4_taskP: "Проверка:", l4_inboxP: "ВХОДЯЩИЕ", l4_fromP: "От:", l4_linkP: "Нажать ссылку", l4_btnFake: "ФИШИНГ!", l4_btnReal: "БЕЗОПАСНО",
+              l4_fbWrongP: "ОШИБКА! ВНИМАТЕЛЬНЕЕ ИЗУЧИТЕ ПИСЬМО!", l4_fbAlarmP: "ОШИБКА! ДАННЫЕ УКРАДЕНЫ!", l4_fbLuckyP: "БЕЗОПАСНАЯ ССЫЛКА.",
+              l4_successP: "ВСЕ БОНУСНЫЕ МИССИИ ВЫПОЛНЕНЫ! ВЫ ПРОФИ.",
+              l4_emails: [
+                { sender: "support@n1ntendo-hilfe.xyz", subject: "ВАЖНО: Блокировка!", body: "НЕМЕДЛЕННО нажмите сюда и введите свой пароль!", phishing: true },
+                { sender: "newsletter@minecraft.net", subject: "Новости", body: "В обновлении новые функции. Посмотрите видео.", phishing: false },
+                { sender: "admin-sicherheit@schul-login.de", subject: "Подтвердите пароль!", body: "Пожалуйста, нажмите на ссылку и введите пароль еще раз.", phishing: true }
+              ],
+
+              l5_title: "Дело #5: Атака", l5_head: "Защитник", l5_p1: "Хакеры стреляют паролями!",
+              l5_p2: <>Уничтожьте <Highlight>СЛАБЫЕ</Highlight> пароли (нажатием).</>, l5_p3: <><Highlight>НАДЕЖНЫЕ</Highlight> пароли пропускайте!</>,
+              l5_warn: <>ВНИМАНИЕ: Ошибетесь — потеряете жизнь. Через 30 секунд включится режим маскировки!</>,
+              l5_single: "ОДИНОЧНАЯ", l5_coop: "КООПЕРАТИВ", l5_vs: "ПРОТИВОСТОЯНИЕ", l5_score: "ОЧКИ:",
+              l5_camo: "МАСКИРОВКА", l5_server: "ФАЙРВОЛ", l5_gameover: "СБОЙ СИСТЕМЫ", l5_endstand: "РЕЗУЛЬТАТ", l5_tie: "НИЧЬЯ!", l5_wins: "ПОБЕЖДАЕТ!",
+              l5_playAgain: "ПЕРЕЗАПУСК", l5_changeMode: "СМЕНИТЬ РЕЖИМ", l5_swapSides: "ПОМЕНЯТЬСЯ",
+
+              cert_title: "Сертификат", cert_auth: "Организация", cert_conf: "Подтверждаем", cert_text: "Вы прошли курс.", cert_examiner: "Админ", cert_date: "Дата", cert_back: "Вернуться в меню", cert_sysadmin: "АДМИН", cert_unknownAgent: "НЕИЗВЕСТНО",
+              
+              l1_q1_f1: "Ошибка! Пароли не влияют на скорость интернета.",
+              l1_q1_f2: "Ошибка! От вирусов защищает антивирус, а не пароль.",
+              l1_sortError: "НЕВЕРНЫЙ ПОРЯДОК! Отсортируй еще раз.",
+              l1_sys_pass: "ПРОВЕРКА СИСТЕМЫ ПРОЙДЕНА! ДЕЛО 1 ЗАКРЫТО.",
+              hint_prefix: "Подсказка:",
+              l2_err_info: "Прочитай еще раз внимательно информацию в рамке.",
+              l2_err_notes: "Прочитай еще раз внимательно свои записи в рабочем листе.",
+              l2_err_t1: "Ты обратил внимание на заглавные/строчные буквы и знаки препинания?",
+              l2_err_t2: "Ты обратил внимание на заглавные/строчные буквы, знаки препинания и возможные замены?",
+              l2_err_t3: "Ты обратил внимание на первые буквы, замены, знаки препинания и окончание?",
+              l2_summary: "Резюме",
+              l2_next_quiz: "Далее к проверке безопасности",
+              l2_next_trick: "Далее к следующему трюку",
+              l2_open_ws: "Открыть подсказку к рабочему листу",
+              l2_task: "Задание",
+              l2_t1_q1: "Найди правильный пароль для следующего предложения:",
+              l2_t1_txt1: "Heute scheint die Sonne sehr hell!",
+              l2_t1_q2: "Теперь сам преобразуй следующее предложение:",
+              l2_t1_txt2: "Wir lernen viel über sichere Passwörter!",
+              l2_t1_h2: "Внимательно следи за заглавными и строчными начальными буквами и знаком препинания в конце.",
+              l2_match_q: "Нажми слева на предложение, а справа на подходящий пароль!",
+              l2_t2_p1_l: "Am Abend esse ich eine Pizza!",
+              l2_t2_p2_l: "Am Anfang entdecke ich ein Problem.",
+              l2_t2_p3_l: "Alle Affen essen im Park.",
+              l2_t2_q2: "Преобразуй предложение с помощью трюков 1 и 2:",
+              l2_t2_txt2: "Mein Bruder isst zwei Äpfel.",
+              l2_t2_h2: "Замени слово 'zwei' на цифру 2.",
+              l2_t3_p1_l: "Wir spielen heute im Park! (Roblox _RB)",
+              l2_t3_p2_l: "Wir singen heute im Park. (Roblox _RB)",
+              l2_t3_p3_l: "Wann starten wir im Projekt? (Minecraft _MC)",
+              l2_t4_q1: "Преобразуй предложение с помощью трюков 1, 2 и 3 в надежный пароль:",
+              l2_t4_txt1: "Am Abend spiele ich für zwei Stunden. (Roblox _RB)",
+              l2_t4_h1: "Помни о: @@ для Am Abend, 4 для für, 2 для zwei, точке и окончании _RB!",
+              l2_t4_q2: "Преобразуй еще это предложение (примени все трюки):",
+              l2_t4_txt2: "Zwei Hunde bellen laut im Park! (TikTok _TT)",
+              l2_t4_h2: "Помни о: 2 для Zwei, начальных буквах, восклицательном знаке и окончании _TT!",
+              alert_ws_dl: "Код загружен как HTML!",
+              alert_all_free: "ДОСТУП РАЗРЕШЕН: Все дела открыты!",
+              alert_step_skip: "ТЕКУЩИЙ ШАГ УСПЕШНО ПРОПУЩЕН.",
+              alert_invalid: "НЕВЕРНЫЙ КОД."
           }
         };
 
@@ -466,9 +652,9 @@
           const handleQ1 = (idx) => {
             if (q1Done) return;
             if (idx === 0) {
-              updateState({feedback: "Falsch! Passwörter haben keinen Einfluss auf die Geschwindigkeit des Internets.", isError: true});
+              updateState({feedback: t('l1_q1_f1'), isError: true});
             } else if (idx === 2) {
-              updateState({feedback: "Falsch! Vor Viren schützt ein Antivirenprogramm, nicht ein Passwort.", isError: true});
+              updateState({feedback: t('l1_q1_f2'), isError: true});
             } else if (idx === 1) {
               updateState({q1Done: true, feedback: "", isError: false});
             }
@@ -501,7 +687,7 @@
           const checkSort = () => {
              updateState({ sortChecked: true });
              if (!isSorted) {
-                 updateState({ feedback: "FALSCHE REIHENFOLGE! Sortiere nochmal.", isError: true });
+                 updateState({ feedback: t('l1_sortError'), isError: true });
              } else {
                  updateState({ feedback: "", isError: false });
              }
@@ -717,7 +903,7 @@
                 {/* Abschluss nach Arbeitsblatt */}
                 {abDone && (
                   <div className="space-y-8 text-center animate-fade-in">
-                    <div className="p-10 bg-emerald-900/80 border border-emerald-500 rounded-2xl text-emerald-300 font-bold font-mono text-2xl md:text-3xl uppercase tracking-widest shadow-xl">SYSTEM-CHECK BESTANDEN! AKTE 1 ABGESCHLOSSEN.</div>
+                    <div className="p-10 bg-emerald-900/80 border border-emerald-500 rounded-2xl text-emerald-300 font-bold font-mono text-2xl md:text-3xl uppercase tracking-widest shadow-xl">{t('l1_sys_pass')}</div>
                     <Button onClick={onComplete} variant="success" icon={Lock} className="mt-8">{t('finish')}</Button>
                   </div>
                 )}
@@ -800,32 +986,32 @@
             {
               trickNum: 1, title: t('l2_t1'), ab: null,
               tasks: [
-                { id: 't1_1', type: 'sc', q: "Finde das korrekte Passwort für folgenden Satz:", txt: "Heute scheint die Sonne sehr hell!", opts: ["HsdsS!", "HeuteS!", "HsdSsh!", "HsdSsh."], c: "HsdSsh!" },
-                { id: 't1_3', type: 'input', q: "Wandle nun selbst folgenden Satz um:", txt: "Wir lernen viel über sichere Passwörter!", c: "WlvüsP!", hint: "Achte genau auf die Groß- und Kleinschreibung der Anfangsbuchstaben und das Satzzeichen am Ende." }
+                { id: 't1_1', type: 'sc', q: t('l2_t1_q1'), txt: t('l2_t1_txt1'), opts: ["HsdsS!", "HeuteS!", "HsdSsh!", "HsdSsh."], c: "HsdSsh!" },
+                { id: 't1_3', type: 'input', q: t('l2_t1_q2'), txt: t('l2_t1_txt2'), c: "WlvüsP!", hint: t('l2_t1_h2') }
               ]
             },
             {
               trickNum: 2, title: t('l2_t2'), ab: null,
               tasks: [
-                { id: 't2_1', type: 'match', q: "Klicke links auf einen Satz und rechts auf das passende Passwort!", pairs: [ {id:1, l:"Am Abend esse ich eine Pizza!", r:"@@ei1P!"}, {id:2, l:"Am Anfang entdecke ich ein Problem.", r:"@@ei1P."}, {id:3, l:"Alle Affen essen im Park.", r:"@@eiP."} ] },
-                { id: 't2_2', type: 'input', q: "Wandle den Satz mit Trick 1 und 2 um:", txt: "Mein Bruder isst zwei Äpfel.", c: "MBi2Ä.", hint: "Ersetze das Wort 'zwei' durch die Ziffer 2." }
+                { id: 't2_1', type: 'match', q: t('l2_match_q'), pairs: [ {id:1, l: t('l2_t2_p1_l'), r:"@@ei1P!"}, {id:2, l: t('l2_t2_p2_l'), r:"@@ei1P."}, {id:3, l: t('l2_t2_p3_l'), r:"@@eiP."} ] },
+                { id: 't2_2', type: 'input', q: t('l2_t2_q2'), txt: t('l2_t2_txt2'), c: "MBi2Ä.", hint: t('l2_t2_h2') }
               ]
             },
             {
               trickNum: 3, title: t('l2_t3'), ab: null,
               tasks: [
-                { id: 't3_1', type: 'match', q: "Klicke links auf einen Satz und rechts auf das passende Passwort!", pairs: [ {id:1, l:"Wir spielen heute im Park! (Roblox _RB)", r:"WshiP!_RB"}, {id:2, l:"Wir singen heute im Park. (Roblox _RB)", r:"WshiP._RB"}, {id:3, l:"Wann starten wir im Projekt? (Minecraft _MC)", r:"WswiP?_MC"} ] }
+                { id: 't3_1', type: 'match', q: t('l2_match_q'), pairs: [ {id:1, l: t('l2_t3_p1_l'), r:"WshiP!_RB"}, {id:2, l: t('l2_t3_p2_l'), r:"WshiP._RB"}, {id:3, l: t('l2_t3_p3_l'), r:"WswiP?_MC"} ] }
               ]
             },
             {
-              trickNum: 'summary', isSummary: true, title: "Zusammenfassung", ab: 'summary',
+              trickNum: 'summary', isSummary: true, title: t('l2_summary'), ab: 'summary',
               tasks: []
             },
             {
-              trickNum: 4, isProfi: true, title: "Sicherheits-Check", ab: null,
+              trickNum: 4, isProfi: true, title: t('quizTitle'), ab: null,
               tasks: [
-                { id: 't4_1', type: 'input', q: "Wandle den Satz mithilfe von Trick 1, 2 und 3 in ein sicheres Passwort um:", txt: "Am Abend spiele ich für zwei Stunden. (Roblox _RB)", c: "@@si42S._RB", hint: "Denke an: @@ für Am Abend, 4 für für, 2 für zwei, den Punkt und das Kürzel _RB!" },
-                { id: 't4_2', type: 'input', q: "Wandle noch diesen Satz um (alle Tricks anwenden):", txt: "Zwei Hunde bellen laut im Park! (TikTok _TT)", c: "2HbliP!_TT", hint: "Denke an: 2 für Zwei, die Anfangsbuchstaben, das Ausrufezeichen und das Kürzel _TT!" }
+                { id: 't4_1', type: 'input', q: t('l2_t4_q1'), txt: t('l2_t4_txt1'), c: "@@si42S._RB", hint: t('l2_t4_h1') },
+                { id: 't4_2', type: 'input', q: t('l2_t4_q2'), txt: t('l2_t4_txt2'), c: "2HbliP!_TT", hint: t('l2_t4_h2') }
               ]
             }
           ];
@@ -834,17 +1020,17 @@
 
           const renderInfoBox = (trick) => {
             if (trick.trickNum === 1) return (
-               <InfoCard title={`Trick 1: ${t('l2_t1')}`} t={t}>
+               <InfoCard title={`${t('trick_prefix')} 1: ${t('l2_t1')}`} t={t}>
                    <p>{t('l2_t1_p1')}</p>
                    <p className="mt-4">{t('l2_t1_p2')}</p>
                    <p className="mt-6 font-bold font-mono text-cyan-400 bg-cyan-950/80 border-l-4 border-cyan-500 p-4 rounded-r-xl">{t('l2_ex')} {t('l2_t1_ex')}</p>
                </InfoCard>
             );
             if (trick.trickNum === 2) return (
-               <InfoCard title={`Trick 2: ${t('l2_t2')}`} t={t}>
-                   <p>Als Ergänzung zu Trick 1 machen wir es Hackern noch schwerer: Wir streuen <Highlight>Zahlen und Sonderzeichen</Highlight> ein.</p>
-                   <p className="mt-4"><Highlight>Ersetzt</Highlight> dafür einfach bestimmte Wörter oder Buchstaben aus eurem Merksatz durch Ziffern und Symbole.</p>
-                   <p className="mt-6 text-emerald-400 font-bold uppercase tracking-widest text-sm">Beispiele für mögliche Ersetzungen:</p>
+               <InfoCard title={`${t('trick_prefix')} 2: ${t('l2_t2')}`} t={t}>
+                   <p>{t('l2_t2_p1_info')}</p>
+                   <p className="mt-4">{t('l2_t2_p2_info')}</p>
+                   <p className="mt-6 text-emerald-400 font-bold uppercase tracking-widest text-sm">{t('l2_t2_ex_head')}</p>
                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2 text-emerald-400 font-bold font-mono">
                        <li className="bg-emerald-950/80 p-4 border-l-4 border-emerald-500 rounded-r-xl">{t('l2_t2_r1')}</li>
                        <li className="bg-emerald-950/80 p-4 border-l-4 border-emerald-500 rounded-r-xl">{t('l2_t2_r2')}</li>
@@ -854,9 +1040,9 @@
                </InfoCard>
             );
             if (trick.trickNum === 3) return (
-               <InfoCard title={`Trick 3: ${t('l2_t3')}`} t={t}>
-                   <p>Als Ergänzung zu Trick 1 und 2 gilt die goldene Regel: Nutzt <Highlight>für jeden Account ein eigenes Passwort</Highlight>!</p>
-                   <p className="mt-4">Damit ihr euch nicht 20 verschiedene Sätze merken müsst, nutzt immer euren EINEN <Highlight>Basis-Merksatz</Highlight>. Hängt an das Ende einfach ein <Highlight>Kürzel für die jeweilige Plattform</Highlight> an.</p>
+               <InfoCard title={`${t('trick_prefix')} 3: ${t('l2_t3')}`} t={t}>
+                   <p>{t('l2_t3_p1_info')}</p>
+                   <p className="mt-4">{t('l2_t3_p2_info')}</p>
                    <p className="mt-6 font-bold font-mono text-cyan-400 bg-cyan-950/80 border-l-4 border-cyan-500 p-4 rounded-r-xl">{t('l2_ex')} {t('l2_t3_ex')}</p>
                </InfoCard>
             );
@@ -882,7 +1068,7 @@
                   setIsError(false);
                   setTimeout(() => advanceTask(), 1500);
               } else {
-                  setFeedback(`${t('wrong')} Lies noch einmal genau, was in der Infobox steht.`);
+                  setFeedback(`${t('wrong')} ${t('l2_err_info')}`);
                   setIsError(true);
                   setTimeout(() => { setFeedback(""); setSelectedOpt(null); }, 2000);
               }
@@ -899,13 +1085,13 @@
                 setFailCount(newFail);
                 setIsError(true);
                 if(newFail === 1) {
-                    setFeedback(`${t('wrong')} ${currentTrick.isProfi ? "Lies noch einmal genau in deinen Notizen auf dem Arbeitsblatt nach." : "Lies noch einmal genau, was in der Infobox steht."}`);
+                    setFeedback(`${t('wrong')} ${currentTrick.isProfi ? t('l2_err_notes') : t('l2_err_info')}`);
                 } else if(newFail === 2) {
-                    if (currentTrick.trickNum === 1) setFeedback(`${t('wrong')} Hast du auf Groß-/Kleinschreibung und die Satzzeichen geachtet?`);
-                    else if (currentTrick.trickNum === 2) setFeedback(`${t('wrong')} Hast du auf Groß-/Kleinschreibung, die Satzzeichen und die möglichen Ersetzungen geachtet?`);
-                    else setFeedback(`${t('wrong')} Hast du auf die Anfangsbuchstaben, Ersetzungen, Satzzeichen und den Anhang geachtet?`);
+                    if (currentTrick.trickNum === 1) setFeedback(`${t('wrong')} ${t('l2_err_t1')}`);
+                    else if (currentTrick.trickNum === 2) setFeedback(`${t('wrong')} ${t('l2_err_t2')}`);
+                    else setFeedback(`${t('wrong')} ${t('l2_err_t3')}`);
                 } else {
-                    setFeedback(`Tipp: ${task.hint}`);
+                    setFeedback(`${t('hint_prefix')} ${task.hint}`);
                 }
              }
           };
@@ -930,7 +1116,7 @@
 
           const isLastTrickBeforeProfi = currentTrick.trickNum === 3;
           const isSummary = currentTrick.isSummary;
-          const btnText = currentTrick.isProfi ? t('finish') : (isSummary ? "Weiter zum Sicherheits-Check" : (isLastTrickBeforeProfi ? "Zusammenfassung" : "Weiter zum nächsten Trick"));
+          const btnText = currentTrick.isProfi ? t('finish') : (isSummary ? t('l2_next_quiz') : (isLastTrickBeforeProfi ? t('l2_summary') : t('l2_next_trick')));
 
           return (
             <ScreenWrapper title={`${t('l2_title')} - ${currentTrick.title}`} onBack={onBack} agentNames={agentNames} t={t} lang={lang} onLangToggle={onLangToggle} onTeacherCode={onTeacherCode} modal={<WorksheetModal isOpen={abState === 'modal'} onClose={() => updateState({ abState: 'done' })} t={t}>{currentTrick.ab === 'summary' ? t('l2_ab_summary') : (currentTrick.ab ? t(`l2_ab_${currentTrick.ab}`) : '')}</WorksheetModal>}>
@@ -954,7 +1140,7 @@
                     
                     return (
                        <div key={task.id} className="bg-slate-900 p-8 rounded-2xl border border-slate-700 shadow-xl mb-8 animate-fade-in transition-all">
-                          {!currentTrick.isProfi && <SectionTitle icon={Target} color="text-amber-400" title={t('quizTitle')} />}
+                          {!currentTrick.isProfi && <SectionTitle icon={Target} color="text-amber-400" title={t('l2_task')} />}
                           <p className="text-xl text-center mb-6 font-bold text-slate-300">{task.q}</p>
                           
                           {task.txt && <p className="text-2xl text-center font-bold mb-8 text-white bg-slate-950 p-4 rounded-xl border border-slate-700">{task.txt}</p>}
@@ -972,7 +1158,7 @@
                               </div>
                           )}
                           {task.type === 'input' && (
-                              <input type="text" value={inputVal} onChange={e => setInputVal(e.target.value)} placeholder="Passwort eingeben..." className="w-full p-6 border rounded-xl font-bold font-mono text-2xl text-center outline-none tracking-widest transition-colors bg-slate-950 border-slate-600 text-cyan-300 focus:border-cyan-400" />
+                              <input type="text" value={inputVal} onChange={e => setInputVal(e.target.value)} placeholder={t('l2_enterPwd')} className="w-full p-6 border rounded-xl font-bold font-mono text-2xl text-center outline-none tracking-widest transition-colors bg-slate-950 border-slate-600 text-cyan-300 focus:border-cyan-400" />
                           )}
                           {task.type === 'match' && (
                                 <MatchingGame pairs={task.pairs} isCompleted={false} onComplete={() => {
@@ -990,7 +1176,7 @@
 
                           {/* Passwort-Testen-Button nur für Eingabefelder anzeigen */}
                           {isActive && task.type === 'input' && feedback !== t('correct') && (
-                              <Button className="mt-8" onClick={() => handleInputCheck(task, inputVal)} variant="primary">Passwort Testen</Button>
+                              <Button className="mt-8" onClick={() => handleInputCheck(task, inputVal)} variant="primary">{t('l2_testPwd')}</Button>
                           )}
                        </div>
                     )
@@ -1005,7 +1191,7 @@
                           </Button>
                       ) : (
                           <Button onClick={() => updateState({ abState: 'modal' })} variant="primary" icon={FileText}>
-                              Arbeitsblatt-Hinweis öffnen
+                              {t('l2_open_ws')}
                           </Button>
                       )}
                    </div>
@@ -1343,12 +1529,12 @@
               const url = URL.createObjectURL(blob);
               const a = document.createElement('a'); a.href = url; a.download = 'Mission_Sicheres_Passwort_Source.html';
               document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url);
-              alert("Lernpfad-Code wurde als HTML heruntergeladen!");
-            } else if (code === "KleallesFrei") { setMaxUnlocked(5); alert("ZUTRITT ERTEILT: Alle Akten sind frei!"); } 
+              alert(t('alert_ws_dl'));
+            } else if (code === "KleallesFrei") { setMaxUnlocked(5); alert(t('alert_all_free')); } 
             else if (code === "KleLoesung") {
               updateState(activeLevel, { step: 4, q1Done: true, hackerDone: true, answered: true, gameWon: true, solved: true, abDone: true, worksheetDone: true, checked: true, sortChecked: true, analysisDone: true, trickIdx: 3, activeTaskIdx: 1, showAB: true, subAkte: 2 });
-              alert("AKTUELLER SCHRITT ERFOLGREICH ÜBERBRÜCKT.");
-            } else alert("CODE UNGÜLTIG.");
+              alert(t('alert_step_skip'));
+            } else alert(t('alert_invalid'));
           };
 
           const handleSelectLevel = (id) => { setActiveLevel(id); setView('level'); };
